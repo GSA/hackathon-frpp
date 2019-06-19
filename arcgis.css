@@ -5,8 +5,8 @@
 }
 
 #HomeButton {
-    position: absolute;
-    top: 170px;
+    position: relative;
+    top: 125px;
     left: 20px;
     z-index: 50;
 }
