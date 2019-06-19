@@ -16,7 +16,7 @@ header {
     width: 100vw;
 }
 
-span {
+.header-text {
     font-family: 'Nunito', sans-serif;
     font-size: 2rem;
     font-weight: bold;
@@ -57,6 +57,12 @@ main {
     height: 15%;
     border: 1px solid black;
     width: 90%;
+}
+
+.filters-text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 /* setup tooltips */
