@@ -9,6 +9,7 @@ body {
 header {
     align-items: center;
     background: gray;
+    color: #ffffff;
     display: flex;
     height: 5rem;
     justify-content: center;
@@ -16,8 +17,21 @@ header {
 }
 
 span {
-    color: #ffffff;
     font-family: 'Nunito', sans-serif;
     font-size: 2rem;
     font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+}
+
+#map {
+    width: 66.6666%;
+}
+
+.aside {
+    width: 33.3333%
 }
