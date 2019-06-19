@@ -33,5 +33,34 @@ main {
 }
 
 .aside {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 33.3333%
+}
+
+.filter {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60%;
+    border: 1px solid black;
+    width: 90%;
+}
+
+.filters {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 15%;
+    border: 1px solid black;
+    width: 90%;
+}
+
+.legend {
+    height: 30%;
+    border: 1px solid black;
+    width: 90%;
 }
