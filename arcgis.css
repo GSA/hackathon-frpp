@@ -3,3 +3,10 @@
     padding: 0;
     height: 650px;
 }
+
+#HomeButton {
+    position: absolute;
+    top: 170px;
+    left: 20px;
+    z-index: 50;
+}
